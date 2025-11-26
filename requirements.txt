@@ -1,0 +1,29 @@
+# Python dependencies combined from environment.yml and requirements.txt
+# Python version: 3.10
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+
+# Core dependencies
+tqdm
+Pillow
+opencv-python
+imageio
+matplotlib
+kornia
+natsort
+pyyaml
+wandb
+lpips
+open3d
+torchmetrics
+cyclonedds
+pytorch-msssim
+faiss-gpu
+setuptools
+scikit-image
+
+# Gaussian rasterization with depth support
+# git+https://github.com/JonathonLuiten/diff-gaussian-rasterization-w-depth.git@cb65e4b86bc3bd8ed42174b72a62e8d3a3a71110
